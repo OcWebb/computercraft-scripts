@@ -1,3 +1,4 @@
+
 This repository contains some scripts I have created to help automate various tasks in minecraft.  I am a huge fan of modded minecraft and how far its come.  Computercraft remains one of my favorite mods, as it adds 'turtles' which are essentially Lua controlled robots.
 
 ## Pastebin
@@ -25,3 +26,15 @@ Here is a link to the [Pastebin](https://pastebin.com/u/Webb24) so that you can 
 	 - Once this script starts, it will endlessly attack in front of itself and once full of items will turn around and empty itself into an inventory. 
 	 - If mobs are routed via any means such that they are forced in front of the turtle, this script can be used to grind mobs with **player damage**, meaning you also get exp.
 	 - This script is one you want to consider adding to startup, such that the farm will start back up after its chunk has been unloaded
+	 
+-  **dropmine.lua**
+	 - Usage: `dropmine <distance>`
+		 - This is a mining algorithm that I created to try and maximize my ore gathering without leaving massive 9x9 holes in the ground.  
+		 - It implements a recursive mining algorithm so that it clears the entire vein, unlike `excavate`.
+		 - Heres how it works:
+			 -	The turtle is placed with a chest behind it
+			 -	The turtle mines a 1x1 down to bedrock
+			 -	Once at bedrock it moves up a bit, tunnels 3 blocks over
+			 -	It then ascends to the surface, moves three blocks forward and repeats the process `<distance>`  of times
+		 -	*There is a known bug where the turtle sometimes drops its items off above the placed chest. I recommend placing some hoppers above the chest*
+		 
