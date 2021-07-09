@@ -2,7 +2,7 @@
 This repository contains some scripts I have created to help automate various tasks in minecraft.  I am a huge fan of modded minecraft and how far its come.  Computercraft remains one of my favorite mods, as it adds 'turtles' which are essentially Lua controlled robots.
 
 ## Pastebin
-Here is a link to the [Pastebin](https://pastebin.com/u/Webb24) so that you can download any script within the computercraft terminal.
+You can find these scripts on my [Pastebin](https://pastebin.com/u/Webb24) so that you can download any script within the computercraft terminal.
 
     pastebin get <pastebin_id> <script_name>
 
