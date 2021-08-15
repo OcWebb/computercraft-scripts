@@ -35,6 +35,6 @@ You can find these scripts on my [Pastebin](https://pastebin.com/u/Webb24) so th
 			 -	The turtle is placed with a chest behind it
 			 -	The turtle mines a 1x1 down to bedrock
 			 -	Once at bedrock it moves up a bit, tunnels 3 blocks over
-			 -	It then ascends to the surface, moves three blocks forward and repeats the process `<distance>`  of times
+			 -	It then ascends to the surface, moves three blocks forward and repeats the process `<distance>` number of times
 		 -	*There is a known bug where the turtle sometimes drops its items off above the placed chest. I recommend placing some hoppers above the chest*
 		 
